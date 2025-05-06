@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuadricula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-end mt-3">
+        <p>Instituto Técnico de Capacitación y Productividad - INTECAP</p>
+        <p>Centro de Capacitación en Tecnologías de la Información y las Comunicaciones (TIC's)</p>
+        <p>Desarrollo FullStack</p>
+        <hr class="border-3 border-dark">
+    </header>
+    <br>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Barra de Navegación</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" href="index.html">Inicio</a>
+              <a class="nav-link" href="conceptos.html">conceptos</a>
+              <a class="nav-link" href="cuadricula.html">Cuadrícula</a>
+              <a class="nav-link" href="tablas.html">Tablas</a>   
+            </div>
+          </div>
+        </div>
+    </nav>
+    <section class="text-center my-4">
+        <h2>Actividad para desarrollar habilidades y destrezas</h2>
+        <p>Introducción a Framework CSS y JS (Bootstrap)</p>
+    </section>
+    <br>
+    <main>
+        <p style="text-indent: initial;">Tambien podemos acceder a los links de distinta manera</p>
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Regresar al inicio</a></li>
+              <li class="breadcrumb-item active" aria-current="page">conceptos</li>
+            </ol>
+          </nav>
+    </main>
+    <br>
+    <section>
+        <p>Es una manera practica de poder los botones con bootstrap</p>
+        <a class="btn btn-primary" href="tablas.html" role="button">Ver las tablas</a>
+        <button class="btn btn-primary" type="submit">Ejemplo de como se puede ver un botton</button>
+        <input class="btn btn-primary" type="button" value="Entrada">
+        <input class="btn btn-primary" type="submit" value="Omitir">
+        <input class="btn btn-primary" type="reset" value="Eliminar">
+    </section>
+    <br>
+    <aside>
+        <p>Ejemplo distinto sobre botones</p>
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary active" aria-current="page">Rutas de acceso</a>
+            <a href="conceptos.html" class="btn btn-primary">Link</a>
+            <a href="centrar_elementos.html" class="btn btn-primary">Link</a>
+          </div>
+    </aside>
+    <br>
+    <main>
+        <p>Ejemplo de como poder colocar un card</p>
+        <div class="card" style="width: 18rem; align-items: center;">
+            <img src="images/ia4.jpg" class="card-img-top" alt="imagen-prueba">
+            <div class="card-body">
+              <p class="card-text">Este seria el ejemplo de como se ve una card con bootstrap</p>
+            </div>
+          </div>
+    </main>
+    <br>
+    <footer><!-- Example single danger button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Acciones que realiza el botton
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index.html">Regresar al inicio</a></li>
+            <li><a class="dropdown-item" href="cuadricula.html">Ver la cuadricula</a></li>
+            <li><a class="dropdown-item" href="conceptos.html">Retomar los conceptos</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="componentes.html">Visualizar los componentes</a></li>
+          </ul>
+        </div>
+    </footer>
+    <br>
+    <aside>
+        <div class="list-group">
+            <a href="index.html" class="list-group-item list-group-item-action active" aria-current="true">
+              Retomar el inicio de la pagina
+            </a>
+            <a href="conceptos.html" class="list-group-item list-group-item-action">Vea los conceptos</a>
+            <a href="tablas.html" class="list-group-item list-group-item-action">Visualizar las tablas</a>
+            <a href="centrar_elementos.html" class="list-group-item list-group-item-action">Ejemplo de centrar elementos</a>
+            <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
+          </div>
+    </aside>
+    <br>
+
+    <section>
+    <!-- Botón para abrir el modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">
+        Abrir Modal
+    </button> 
+        <div class="modal" id="miModal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <br>
+    <main>
+        <nav class="navbar" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Retornar al inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="conceptos.html">conceptos basicos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Algunas acciones extra de la barra de Navegación
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://mouredev.com/">Sitio de programacion</a></li>
+                      <li><a class="dropdown-item" href="https://es.stackoverflow.com/">Stackoverflow</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </main>
+    <br>
+    <aside>
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+            Popover on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+            Popover on right
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+            Popover on bottom
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+            Popover on left
+          </button>
+    </aside>
+    <br>
+    <main>
+      <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <ul class="nav nav-pills">
+              <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1">First</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">Second</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                      aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                      <li>
+                          <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+  
+      <!-- Contenedor con scroll -->
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+          data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+          <h4 id="scrollspyHeading1">Primer texto</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          <h4 id="scrollspyHeading2">Segundo texto</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          <h4 id="scrollspyHeading3">Tercer texto</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          <h4 id="scrollspyHeading4">Cuarto texto</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+          <h4 id="scrollspyHeading5">Quinto texto</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+      </div>
+  </main>
+  <!-- Estilos para la barra de desplazamiento -->
+  <style>
+    .scrollspy-example {
+        height: 300px; /* Altura fija */
+        overflow-y: auto; /* Scroll vertical */
+        position: relative; /* Necesario para ScrollSpy */
+    }
+  </style>
+    <br>
+    <section>
+        <!-- Botón para activar el toast -->
+        <button type="button" class="btn btn-primary" id="liveToastBtn">Mostrar Toast</button>
+    
+        <!-- Contenedor del Toast -->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="https://via.placeholder.com/20" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>Hace un momento</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    ¡Hola, mundo! Este es un toast de ejemplo.
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Bootstrap Bundle JS (asegúrate de incluirlo antes del script) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Script para activar el Toast -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var toastTrigger = document.getElementById("liveToastBtn");
+        var toastLive = document.getElementById("liveToast");
+
+        if (toastTrigger) {
+            toastTrigger.addEventListener("click", function () {
+                var toast = new bootstrap.Toast(toastLive);
+                toast.show();
+            });
+        }
+    });
+</script>
+<br>
+    <main>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">
+            Tooltip on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Tooltip on right">
+            Tooltip on right
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+            Tooltip on bottom
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Tooltip on left">
+            Tooltip on left
+          </button>
+    </main>
+    <!-- Bootstrap Bundle JS (asegúrate de incluirlo) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para activar los tooltips -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            var tooltipList = [...tooltipTriggerList].map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+    <br>
+    <footer>
+        <hr class="border-3 border-dark">
+        <p style="text-align: center;"><strong>"Acepto el Reto "</strong></p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
